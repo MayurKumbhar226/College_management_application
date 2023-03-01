@@ -1,0 +1,32 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Smt.SSP Polytechnic</string>
+
+    <string name="bold" tools:ignore="ReferenceType">@font/latobold</string>
+    <string name="regular" tools:ignore="ReferenceType">@font/latoregular</string>
+    <string name="light" tools:ignore="ReferenceType">@font/latolight</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="start">Start</string>
+    <string name="close">Close</string>
+
+    <string-array name="theme">
+
+        <item>System Default</item>
+        <item>Dark</item>
+        <item>Light</item>
+
+    </string-array>
+
+
+    <string name="about_collage">Mahatma Gandhi Shikshan Mandal’s Smt. Sharchchandrika Suresh Patil Institute of technology (Polytechnic) is a realization of a dream by Late Smt. Sharchchandrika Akka (Ex-Education Ministress, Maharashtra State) and her husband Dadasaheb Dr. Suresh G. Patil (Founder President MGSM, Chopda). It’s a premier institute, known for quality education. The institute has been established in 1983 with an aim to provide scope for technical education for the students belonging to rural areas. Now the institute stands tall among its contemporaries and boosts of a reputation that it has been able to maintain over these years.</string>
+    <string name="about_collage1">Mahatma Gandhi Shikshan Mandal’s Smt. Sharchchandrika Suresh Patil Institute of technology (Polytechnic) is a realization of a dream by Late Smt. Sharchchandrika Chopda.  Now the institute stands tall among its contemporaries and boosts of a reputation that it has been able to maintain over these years.</string>
+    <string name="Contact_us">Principal : Prof.V. N. Borse
+
+Phone    : 02586-222100
+
+Email     : vijay.borse061@gmail.com
+
+Address : Smt.Sharachchandrika Suresh Patil Institute of Technology(Polytechnic),Chopda.Pin-425107</string>
+
+
+</resources>

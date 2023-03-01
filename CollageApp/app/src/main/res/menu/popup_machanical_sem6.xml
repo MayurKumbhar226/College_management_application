@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+
+    <item android:id="@+id/item1sem6"
+        android:title="Emerging Trends in Machanical Engineering"/>
+
+    <item android:id="@+id/item2sem6"
+        android:title="Industrial Hydraulics and Pneumatics"/>
+
+    <item android:id="@+id/item3sem6"
+        android:title="Automobial Engineering"/>
+
+    <item android:id="@+id/item4sem6"
+        android:title="Industrial Engineering and Quality Control"/>
+</menu>

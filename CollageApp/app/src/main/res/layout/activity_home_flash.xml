@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#FAFBFA"
+    android:layout_height="match_parent"
+    tools:context=".Home_flash">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="221dp"
+        android:layout_height="169dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="96dp"
+        android:layout_marginTop="153dp"
+        android:layout_marginEnd="93dp"
+        android:layout_marginBottom="338dp"
+        app:srcCompat="@drawable/icon1" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView"
+        android:layout_alignEnd="@+id/imageView"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="-311dp"
+        android:layout_marginEnd="-84dp"
+        android:fontFamily="@font/regular"
+        android:layout_marginBottom="10dp"
+        android:gravity="center_horizontal"
+        android:text="Smt. SSP Polytechnic"
+        android:textColor="#101010"
+        android:textSize="22sp" />
+
+</RelativeLayout>

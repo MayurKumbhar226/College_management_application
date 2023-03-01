@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <item android:id="@+id/item1sem2"
+        android:title="Applied Mathematics"/>
+
+    <item android:id="@+id/item2sem2"
+        android:title="Fundamentals of Electrical Engineering"/>
+
+    <item android:id="@+id/item3sem2"
+        android:title="Elements of Electronics"/>
+
+    <item android:id="@+id/item4sem2"
+        android:title="Basic Communication Using Computer"/>
+
+</menu>

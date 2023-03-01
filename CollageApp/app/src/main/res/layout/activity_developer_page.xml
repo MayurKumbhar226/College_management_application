@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:id="@+id/drawerLayout"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+
+
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:background="@drawable/back_developers"
+
+            android:layout_height="match_parent">
+
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="20dp"
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="@font/regular"
+                    android:gravity="center"
+                    android:text="About Developers"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:layout_height="wrap_content">
+
+
+                    <com.google.android.material.card.MaterialCardView
+                        android:layout_width="match_parent"
+                        android:layout_height="115dp"
+                        android:layout_margin="8dp"
+                        app:cardBackgroundColor="@color/black"
+                        app:cardCornerRadius="15dp"
+                        app:cardElevation="16dp">
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="8dp"
+                            android:background="@drawable/computer"
+                            android:orientation="vertical"
+                            android:scaleType="fitXY">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal"
+                                android:weightSum="2">
+
+                                <de.hdodenhof.circleimageview.CircleImageView
+
+                                    android:layout_width="115dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_gravity="center_horizontal"
+                                    android:layout_weight="0.5"
+                                    android:src="@drawable/mayur" />
+
+
+
+                                <LinearLayout
+                                    android:layout_width="235dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1.5"
+                                    android:gravity="center_vertical"
+                                    android:orientation="vertical"
+                                    android:padding="12dp">
+
+
+                                    <TextView
+
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:fontFamily="@string/regular"
+                                        android:text="Mayur Kumbhar"
+                                        android:textColor="@android:color/background_light"
+                                        android:textSize="@dimen/title_size" />
+
+
+
+                                    <TextView
+                                        android:id="@+id/teacherEmail"
+                                        android:layout_marginTop="10dp"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:fontFamily="@string/regular"
+                                        android:text="Software Engineer"
+                                        android:textColor="@android:color/background_light"
+                                        android:textSize="@dimen/text_size" />
+
+
+                                </LinearLayout>
+
+
+                            </LinearLayout>
+
+
+                        </LinearLayout>
+
+                    </com.google.android.material.card.MaterialCardView>
+
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:layout_height="wrap_content">
+
+
+                    <com.google.android.material.card.MaterialCardView
+                        android:layout_width="match_parent"
+                        android:layout_height="115dp"
+                        android:layout_margin="8dp"
+                        app:cardBackgroundColor="@color/black"
+                        app:cardCornerRadius="15dp"
+                        app:cardElevation="16dp">
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="8dp"
+                            android:background="@drawable/computer"
+                            android:orientation="vertical"
+                            android:scaleType="fitXY">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal"
+                                android:weightSum="2">
+
+
+                                <LinearLayout
+                                    android:layout_width="235dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1.5"
+                                    android:gravity="center_vertical"
+                                    android:orientation="vertical"
+                                    android:padding="12dp">
+
+
+                                    <TextView
+
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:fontFamily="@string/regular"
+                                        android:text="Chetan Shimpi"
+                                        android:textColor="@android:color/background_light"
+                                        android:textSize="@dimen/title_size" />
+
+
+
+                                    <TextView
+                                        android:layout_marginTop="10dp"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:fontFamily="@string/regular"
+                                        android:text="Software Engineer"
+                                        android:textColor="@android:color/background_light"
+                                        android:textSize="@dimen/text_size" />
+
+
+                                </LinearLayout>
+
+
+                                <de.hdodenhof.circleimageview.CircleImageView
+
+                                    android:layout_width="115dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_gravity="center_horizontal"
+                                    android:layout_weight="0.5"
+                                    android:src="@drawable/chetan" />
+
+
+
+
+                            </LinearLayout>
+
+
+                        </LinearLayout>
+
+                    </com.google.android.material.card.MaterialCardView>
+
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:layout_height="wrap_content">
+
+
+                    <com.google.android.material.card.MaterialCardView
+                        android:layout_width="match_parent"
+                        android:layout_height="115dp"
+                        android:layout_margin="8dp"
+                        app:cardBackgroundColor="@color/black"
+                        app:cardCornerRadius="15dp"
+                        app:cardElevation="16dp">
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="8dp"
+                            android:background="@drawable/computer"
+                            android:orientation="vertical"
+                            android:scaleType="fitXY">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal"
+                                android:weightSum="2">
+
+
+                                <de.hdodenhof.circleimageview.CircleImageView
+
+                                    android:layout_width="88dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_gravity="center_horizontal"
+                                    android:layout_weight="0.5"
+                                    android:src="@drawable/shubham" />
+
+
+
+                                <LinearLayout
+                                    android:layout_width="235dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1.5"
+                                    android:gravity="center_vertical"
+                                    android:orientation="vertical"
+                                    android:padding="12dp">
+
+
+                                    <TextView
+
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:fontFamily="@string/regular"
+                                        android:text="Shubham Mahajan"
+                                        android:textColor="@android:color/background_light"
+                                        android:textSize="20sp" />
+
+
+
+                                    <TextView
+                                        android:layout_marginTop="10dp"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:fontFamily="@string/regular"
+                                        android:text="Software Engineer"
+                                        android:textColor="@android:color/background_light"
+                                        android:textSize="@dimen/text_size" />
+
+
+                                </LinearLayout>
+
+
+
+
+                            </LinearLayout>
+
+
+                        </LinearLayout>
+
+                    </com.google.android.material.card.MaterialCardView>
+
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:layout_height="wrap_content">
+
+
+                    <com.google.android.material.card.MaterialCardView
+                        android:layout_width="match_parent"
+                        android:layout_height="115dp"
+                        android:layout_margin="8dp"
+                        app:cardBackgroundColor="@color/black"
+                        app:cardCornerRadius="15dp"
+                        app:cardElevation="16dp">
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="8dp"
+                            android:background="@drawable/computer"
+                            android:orientation="vertical"
+                            android:scaleType="fitXY">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal"
+                                android:weightSum="2">
+
+
+
+                                <LinearLayout
+                                    android:layout_width="235dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1.5"
+                                    android:gravity="center_vertical"
+                                    android:orientation="vertical"
+                                    android:padding="12dp">
+
+
+                                    <TextView
+
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:fontFamily="@string/regular"
+                                        android:text="Ketan Patil"
+                                        android:textColor="@android:color/background_light"
+                                        android:textSize="@dimen/title_size" />
+
+
+
+                                    <TextView
+                                        android:layout_marginTop="10dp"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:fontFamily="@string/regular"
+                                        android:text="Software Engineer"
+                                        android:textColor="@android:color/background_light"
+                                        android:textSize="@dimen/text_size" />
+
+
+                                </LinearLayout>
+
+
+
+
+                                <de.hdodenhof.circleimageview.CircleImageView
+
+                                    android:layout_width="115dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_gravity="center_horizontal"
+                                    android:layout_weight="0.5"
+                                    android:src="@drawable/khali" />
+
+
+
+
+                            </LinearLayout>
+
+
+                        </LinearLayout>
+
+                    </com.google.android.material.card.MaterialCardView>
+
+
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+
+        </ScrollView>
+
+
+    </RelativeLayout>
+
+
+</androidx.drawerlayout.widget.DrawerLayout>
+

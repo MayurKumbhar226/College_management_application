@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:id="@+id/drawerLayout"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+
+
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <LinearLayout
+                android:background="@android:color/background_light"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:background="@drawable/electrical"
+                    android:scaleType="fitXY"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        style="@style/Widget.MaterialComponents.Button.TextButton"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_margin="15dp"
+                        android:text="Electrical Engineering"
+                        android:textAllCaps="false"
+                        android:textColor="@android:color/black"
+                        android:textSize="32sp"
+                        android:textStyle="bold"
+                        app:cornerRadius="16dp"
+                        app:iconSize="20dp" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:layout_margin="16dp"
+                    android:layout_height="wrap_content">
+
+
+
+                    <com.google.android.material.card.MaterialCardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="8dp"
+                        app:cardBackgroundColor="@color/black"
+                        app:cardCornerRadius="15dp"
+                        app:cardElevation="16dp">
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:scaleType="fitXY"
+                            android:orientation="vertical">
+
+
+                            <Button
+
+                                android:onClick="showPopup"
+
+                                android:id="@+id/comp_sem1"
+                                style="@style/Widget.MaterialComponents.Button"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_margin="15dp"
+                                android:text="1. Semester"
+                                android:textAllCaps="false"
+                                android:textColor="@color/design_default_color_background"
+                                android:textSize="22sp"
+                                app:cornerRadius="16dp"/>
+
+
+                        </LinearLayout>
+
+                    </com.google.android.material.card.MaterialCardView>
+
+
+                    <com.google.android.material.card.MaterialCardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="8dp"
+                        app:cardBackgroundColor="@color/black"
+                        app:cardCornerRadius="15dp"
+                        app:cardElevation="16dp">
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:scaleType="fitXY"
+                            android:orientation="vertical">
+
+
+                            <Button
+
+
+                                android:onClick="showPopup2"
+
+                                android:id="@+id/comp_sem2"
+                                style="@style/Widget.MaterialComponents.Button"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_margin="15dp"
+                                android:text="2. Semester"
+                                android:textAllCaps="false"
+                                android:textColor="@color/design_default_color_background"
+                                android:textSize="22sp"
+                                app:cornerRadius="16dp"
+                                app:iconSize="20dp" />
+
+
+                        </LinearLayout>
+
+                    </com.google.android.material.card.MaterialCardView>
+
+                    <com.google.android.material.card.MaterialCardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="8dp"
+                        app:cardBackgroundColor="@color/black"
+                        app:cardCornerRadius="15dp"
+                        app:cardElevation="16dp">
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:scaleType="fitXY"
+                            android:orientation="vertical">
+
+
+                            <Button
+
+                                android:onClick="showPopup3"
+
+
+                                android:id="@+id/comp_sem3"
+                                style="@style/Widget.MaterialComponents.Button"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_margin="15dp"
+                                android:text="3. Semester"
+                                android:textAllCaps="false"
+                                android:textColor="@color/design_default_color_background"
+                                android:textSize="22sp"
+                                app:cornerRadius="16dp"
+                                app:iconSize="20dp" />
+
+
+                        </LinearLayout>
+
+                    </com.google.android.material.card.MaterialCardView>
+
+                    <com.google.android.material.card.MaterialCardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="8dp"
+                        app:cardBackgroundColor="@color/black"
+                        app:cardCornerRadius="15dp"
+                        app:cardElevation="16dp">
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:scaleType="fitXY"
+                            android:orientation="vertical">
+
+
+                            <Button
+
+                                android:onClick="showPopup4"
+
+                                android:id="@+id/comp_sem4"
+                                style="@style/Widget.MaterialComponents.Button"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_margin="15dp"
+                                android:text="4. Semester"
+                                android:textAllCaps="false"
+                                android:textColor="@color/design_default_color_background"
+                                android:textSize="22sp"
+                                app:cornerRadius="16dp"
+                                app:iconSize="20dp" />
+
+
+                        </LinearLayout>
+
+                    </com.google.android.material.card.MaterialCardView>
+
+                    <com.google.android.material.card.MaterialCardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="8dp"
+                        app:cardBackgroundColor="@color/black"
+                        app:cardCornerRadius="15dp"
+                        app:cardElevation="16dp">
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:scaleType="fitXY"
+                            android:orientation="vertical">
+
+
+                            <Button
+
+                                android:onClick="showPopup5"
+
+                                android:id="@+id/comp_sem5"
+                                style="@style/Widget.MaterialComponents.Button"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_margin="15dp"
+                                android:text="5. Semester"
+                                android:textAllCaps="false"
+                                android:textColor="@color/design_default_color_background"
+                                android:textSize="22sp"
+                                app:cornerRadius="16dp"
+                                app:iconSize="20dp" />
+
+
+                        </LinearLayout>
+
+                    </com.google.android.material.card.MaterialCardView>
+
+                    <com.google.android.material.card.MaterialCardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="8dp"
+                        app:cardBackgroundColor="@color/black"
+                        app:cardCornerRadius="15dp"
+                        app:cardElevation="16dp">
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:scaleType="fitXY"
+                            android:orientation="vertical">
+
+
+                            <Button
+
+                                android:onClick="showPopup6"
+
+                                android:id="@+id/comp_sem6"
+                                style="@style/Widget.MaterialComponents.Button"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_margin="15dp"
+                                android:text="6. Semester"
+                                android:textAllCaps="false"
+                                android:textColor="@color/design_default_color_background"
+                                android:textSize="22sp"
+                                app:cornerRadius="16dp"
+                                app:iconSize="20dp" />
+
+
+                        </LinearLayout>
+
+                    </com.google.android.material.card.MaterialCardView>
+
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+
+        </ScrollView>
+
+
+    </RelativeLayout>
+
+
+</androidx.drawerlayout.widget.DrawerLayout>
+

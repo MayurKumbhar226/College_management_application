@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item android:id="@+id/item1sem1"
+        android:title="English"/>
+
+    <item android:id="@+id/item2sem1"
+        android:title="Basic Science"/>
+
+    <item android:id="@+id/item3sem1"
+        android:title="Basic Mathematics"/>
+
+    <item android:id="@+id/item4sem1"
+        android:title="Engineering Graphics"/>
+
+</menu>

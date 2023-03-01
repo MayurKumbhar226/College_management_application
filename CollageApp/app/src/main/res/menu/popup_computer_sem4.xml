@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <item android:id="@+id/item1sem4"
+        android:title="Java Programming"/>
+
+    <item android:id="@+id/item2sem4"
+        android:title="Software Engineering"/>
+
+    <item android:id="@+id/item3sem4"
+        android:title="Data Communication and Computer network"/>
+
+    <item android:id="@+id/item4sem4"
+        android:title="Microprocessors"/>
+
+</menu>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <item android:id="@+id/item1sem3"
+        android:title="Strength of Material"/>
+
+    <item android:id="@+id/item2sem3"
+        android:title="Basic Electrical and Thermal"/>
+
+    <item android:id="@+id/item3sem3"
+        android:title="Machanical Workung Drawing"/>
+
+    <item android:id="@+id/item4sem3"
+        android:title="Thermal Engineering"/>
+</menu>

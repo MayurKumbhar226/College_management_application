@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:id="@+id/drawerLayout"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+
+
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <LinearLayout
+                android:background="@android:color/background_light"
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="165dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/vidio_lec1" />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:layout_margin="20dp"
+                    android:layout_height="wrap_content">
+
+
+                    <com.google.android.material.card.MaterialCardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="8dp"
+                        app:cardBackgroundColor="@color/black"
+                        app:cardCornerRadius="15dp"
+                        app:cardElevation="16dp">
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="200dp"
+                            android:background="@drawable/computer"
+                            android:scaleType="fitXY"
+                            android:layout_margin="8dp"
+                            android:orientation="vertical">
+
+
+                            <Button
+                                android:id="@+id/comp_video"
+                                style="@style/Widget.MaterialComponents.Button.TextButton"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="center"
+                                android:layout_margin="15dp"
+                                android:text="Computer Engineering"
+                                android:textAllCaps="false"
+                                android:textColor="@color/design_default_color_background"
+                                android:textSize="32sp"
+                                android:textStyle="bold"
+                                app:cornerRadius="16dp"
+                                app:iconSize="20dp" />
+
+
+                        </LinearLayout>
+
+                    </com.google.android.material.card.MaterialCardView>
+
+
+
+
+                    <com.google.android.material.card.MaterialCardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="8dp"
+                        app:cardBackgroundColor="@color/black"
+                        app:cardCornerRadius="15dp"
+                        app:cardElevation="16dp">
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="200dp"
+                            android:background="@drawable/civil"
+                            android:scaleType="fitXY"
+                            android:layout_margin="8dp"
+                            android:orientation="vertical">
+
+
+                            <Button
+                                android:id="@+id/civil_video"
+                                style="@style/Widget.MaterialComponents.Button.TextButton"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="center"
+                                android:layout_margin="15dp"
+                                android:text="Civil Engineering"
+                                android:textAllCaps="false"
+                                android:textColor="@android:color/primary_text_light_nodisable"
+                                android:textSize="32sp"
+                                android:textStyle="bold"
+                                app:cornerRadius="16dp"
+                                app:iconSize="20dp" />
+
+
+                        </LinearLayout>
+
+                    </com.google.android.material.card.MaterialCardView>
+
+
+                    <com.google.android.material.card.MaterialCardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="8dp"
+                        app:cardBackgroundColor="@color/black"
+                        app:cardCornerRadius="15dp"
+                        app:cardElevation="16dp">
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="200dp"
+                            android:background="@drawable/machanical"
+                            android:scaleType="fitXY"
+                            android:layout_margin="8dp"
+                            android:orientation="vertical">
+
+
+                            <Button
+                                android:id="@+id/macha_video"
+                                style="@style/Widget.MaterialComponents.Button.TextButton"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="center"
+                                android:layout_margin="15dp"
+                                android:text="Mechanical Engineering"
+                                android:textAllCaps="false"
+                                android:textColor="@color/design_default_color_background"
+                                android:textSize="32sp"
+                                android:textStyle="bold"
+                                app:cornerRadius="16dp"
+                                app:iconSize="20dp" />
+
+
+                        </LinearLayout>
+
+                    </com.google.android.material.card.MaterialCardView>
+
+
+
+                    <com.google.android.material.card.MaterialCardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="8dp"
+                        app:cardBackgroundColor="@color/black"
+                        app:cardCornerRadius="15dp"
+                        app:cardElevation="16dp">
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="200dp"
+                            android:background="@drawable/electrical"
+                            android:scaleType="fitXY"
+                            android:layout_margin="8dp"
+                            android:orientation="vertical">
+
+
+                            <Button
+                                android:id="@+id/elec_video"
+                                style="@style/Widget.MaterialComponents.Button.TextButton"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="center"
+                                android:layout_margin="15dp"
+                                android:text="Electrical Engineering"
+                                android:textAllCaps="false"
+                                android:textColor="@android:color/background_light"
+                                android:textSize="32sp"
+                                android:textStyle="bold"
+                                app:cornerRadius="16dp"
+                                app:iconSize="20dp" />
+
+
+                        </LinearLayout>
+
+                    </com.google.android.material.card.MaterialCardView>
+
+
+
+                </LinearLayout>
+
+
+
+
+
+
+            </LinearLayout>
+
+
+        </ScrollView>
+
+
+    </RelativeLayout>
+
+
+</androidx.drawerlayout.widget.DrawerLayout>
+

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item android:id="@+id/item1sem3"
+        android:title="Advanced Surveying"/>
+
+    <item android:id="@+id/item2sem3"
+        android:title="Highway Engineering"/>
+
+    <item android:id="@+id/item3sem3"
+        android:title="Building Construction"/>
+
+    <item android:id="@+id/item4sem3"
+        android:title="Concreat Technology"/>
+</menu>

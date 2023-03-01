@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.collageapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.CollageApp">
+        <activity android:name=".video_lec.Electrical_vedio_lec"></activity>
+        <activity android:name=".video_lec.Machanical_vedio_lec" />
+        <activity android:name=".video_lec.Civil_vedio_lec" />
+        <activity android:name=".video_lec.Computer_video_lec" />
+        <activity android:name=".Developer_page" />
+        <activity android:name=".VIdeo_Lectures" />
+        <activity
+            android:name=".Home_flash"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".menu3" />
+        <activity android:name=".menu2" />
+        <activity android:name=".menu1" />
+        <activity android:name=".FullImageView" />
+        <activity android:name=".ebook.PdfViwerActivity" />
+        <activity
+            android:name=".ebook.EbookActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".MainActivity" />
+    </application>
+
+</manifest>
